@@ -1,0 +1,389 @@
+﻿@import "reset.css";
+/*@import "function.css";*/
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";  
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+
+.w
+	position relative
+	max-width: 1920px
+	width 100%
+	margin 0 auto
+body
+	font-size 100%
+.public-header
+	height 70px
+	background url('../img/fd49d9711586d7485ef272595ea2af0c-1920+73.png') center top no-repeat
+	border-bottom 20px solid #33d4b8
+.public-header-left-content
+	position absolute
+	width 170px
+	left 135px
+	box-sizing border-box
+	border 1px solid #000
+	box-shadow 0 0 0 15px #fff
+	border-top none
+	background #ffffff
+	z-index 10
+	.brand
+		display block
+		margin 90px auto 40px
+		width 57px
+		img
+			display block
+			width 100%
+	.facebook
+		width 150px
+		margin 0 auto
+		img
+			display block
+			width 100%
+	span
+		display block
+		padding 10px 0 10px
+		font-size 18px
+		color #454547
+		text-align center
+.public-header-right-content
+	padding-top 11px
+	a
+		margin-right 15px
+		width 160px
+		height 48px
+		font-size 24px
+		color #ffffff
+		line-height 48px
+		text-align center
+		&.yellow
+			background #f6ae2f
+		&.pink
+			background #fabac9
+		&.blue
+			background #3a579d
+
+.index-banner
+	display none
+	img
+		display block
+		margin 0 auto
+		max-width 1920px
+		width 100%
+.main-set-token
+	display none
+	.token
+	.resuit
+		padding 0 140px
+	.token
+		font-size 24px
+		color #5b5c5c
+		line-height 1
+		.pl200
+			padding-left 200px
+		h3
+			padding-top 90px
+			font-weight bold
+		.row
+			padding-top 20px
+			span
+				line-height 30px
+			input[type=text]
+				width 380px
+				height 30px
+				line-height 18px
+				font-size 18px
+				padding 5px 10px
+				box-sizing border-box
+				border 1px solid #dcdbdb
+				outline none
+			a
+				margin-left 25px
+				width 90px
+				height 30px
+				font-size 18px
+				color #514e4f
+				background #dcdbdb
+				text-align center
+				line-height 30px
+	.resuit
+		padding-top 100px
+		table
+			width 100%
+			tr
+			th
+			td
+				padding 10px
+				font-size 18px
+				color #5b5c5c
+				line-height 1.5
+				font-weight normal
+				text-align left
+			a
+				display inline-block
+				vertical-align middle
+				margin-left 10px
+			thead
+				tr
+					border-bottom 1px solid #dcdbdb
+				th
+					background url('../img/463eafcb07e1876c73c74538b09104c9-19+19.png') right 14px no-repeat
+					
+				tr
+				th
+					padding-bottom 30px
+			tbody
+				tr
+					td
+						&:last-child
+							background #ffffff
+					&:nth-child(even)
+						background #dcdbdc
+.main-gift
+	display none
+	.gift-scroll-ani
+		border-bottom 20px solid #33d4b8
+		.container
+			padding 0 0 0 140px
+			.item
+				padding 10px 20px 0
+				width 150px
+				position relative
+				&.active
+					&:after
+						content ''
+						width 123px
+						height 82px
+						top 0
+						left 50%
+						transform translate(-50%,-30px)
+						position absolute
+						background  url('../img/3af7792484fb0f295693ea258e930211-123+82.png') center center no-repeat
+				.pic
+					position relative
+					z-index 1
+					img
+						display block
+						width 100%
+				.name
+					font-size 20px
+					color #696c6b
+					line-height 2
+					text-align center
+	.gift-option
+		background #d1d0d0
+		.container
+			padding 0 140px
+		.left-content
+			padding 40px 0
+			height 40px
+			line-height 40px
+			font-size 24px
+			color #ffffff
+			input
+				height 40px
+				border none
+				outline none
+				&:disabled
+					background #ffffff
+			.pl70
+				padding-left 70px
+			.icon
+				padding-left 45px
+				background  url('../img/591a9fcdf066b8abad7ead5f337aee87-32+34.png') left center no-repeat
+			.gift-name
+				width 322px
+				padding 0 10px
+				box-sizing border-box
+				color #696969
+			.gift-number
+				width 80px
+				color #fa0303
+				text-align center
+				margin 0 10px
+		.right-content
+			.go
+				margin 10px 0
+				width 251px
+				height 106px
+				text-align center
+				color #ffffff
+				font-size 28px
+				line-height 1.5
+				background url('../img/21df0af40dc3c0aeb3d2a733be9f795d-251+106.png') left center no-repeat
+				span
+					display block
+				.en
+					text-transform uppercase
+					font-size 56px
+					line-height 1
+			.download
+				margin 70px 0 0 20px
+				width 33px
+				height 35px
+				background url('../img/017ac29e754a74dfed962fa14a8b84ea-33+35.png') left center no-repeat
+	.sort-option
+		padding 70px 0 90px
+		font-size 0
+		text-align center
+		a
+			margin 0 20px
+			display inline-block
+			width 152px
+			height 60px
+			line-height 60px
+			font-size 24px
+			color #33d4b8
+			border-radius 5px
+			border 1px solid #33d4b8
+			transition 0.3s
+			&.active
+				background #3a579d
+			span
+				padding-left 40px
+			&.messages
+				span 
+					background url('../img/2da8feec653106b4ce2c453ad1a61dbf-32+28.png') left center no-repeat
+				
+			&.like
+				span 
+					background url('../img/2f7b712b76e471d87dcb6348fcee9774-37+33.png') left center no-repeat
+				
+			&.share
+				span 
+					background url('../img/4ea2de6f25ba8920eeec0b26ac2d9f16-27+27.png') left center no-repeat
+	.resuit
+		padding 0 140px
+		table
+			width 100%
+			tr
+			th
+			td
+				padding 10px
+				font-size 18px
+				color #5b5c5c
+				line-height 1.5
+				font-weight normal
+				text-align left
+			a
+				display inline-block
+				vertical-align middle
+				margin-left 10px
+			thead
+				tr
+					border-bottom 1px solid #5b5c5c
+				th
+					background url('../img/2741dcef74681e0600c2edb4e9bedd91-20+20.png') right 14px no-repeat
+				tr
+				th
+					padding-bottom 30px
+			tbody
+				tr
+					&:nth-child(even)
+						background #dcdbdc
+
+.main-order
+	display none
+	.token
+	.resuit
+		padding 0 140px
+	.token
+		font-size 24px
+		color #5b5c5c
+		line-height 1
+		h3
+			padding-top 90px
+			font-weight bold
+			small
+				font-weight normal
+				color #6c96f9
+				font-size 24px
+		.row
+			padding-top 20px
+			span
+				line-height 30px
+			
+			input[type=radio]
+				appearance none
+				width 25px
+				height 25px
+				border-radius 50%
+				border 1px solid #514e4f
+				outline none 
+				margin-top 3px
+				margin-right 10px
+				transition 0.3s
+				background radial-gradient(circle at 50%, #514e4f 0%, transparent 0%)
+				&:checked
+					background radial-gradient(circle at 50%, #514e4f 30%, transparent 30%)
+			input[type=text]
+				width 380px
+				height 30px
+				line-height 18px
+				font-size 18px
+				padding 5px 10px
+				box-sizing border-box
+				border 1px solid #dcdbdb
+				outline none
+				&.w85
+					width 85px
+					border-left none
+					border-right none
+					margin 0 5px
+			a
+				margin-left 25px
+				width 90px
+				height 30px
+				font-size 18px
+				color #514e4f
+				background #dcdbdb
+				text-align center
+				line-height 30px
+		a.download
+			width 35px
+			background url('../img/017ac29e754a74dfed962fa14a8b84ea-33+35.png') left center no-repeat
+			
+		.op0
+			opacity 0
+		.pl200
+			padding-left 200px
+		.p0-20
+			padding 0 20px
+		.w600
+			width 600px
+	.resuit
+		padding-top 100px
+		table
+			width 100%
+			tr
+			th
+			td
+				padding 10px
+				font-size 18px
+				color #5b5c5c
+				line-height 1.5
+				font-weight normal
+				text-align left
+			a
+				display inline-block
+				vertical-align middle
+				margin-left 10px
+			thead
+				tr
+					border-bottom 1px solid #dcdbdb
+				th
+					background url('../img/463eafcb07e1876c73c74538b09104c9-19+19.png') right 14px no-repeat
+					
+				tr
+				th
+					padding-bottom 30px
+			tbody
+				tr
+					&:nth-child(even)
+						background #dcdbdc
+
+		
+				
